@@ -1,0 +1,8 @@
+{
+  "name": "hybridus",
+  "version": "1.0.0",
+  "description": "A tool for automated delivery of hybrid applications",
+  "main": "index.js",
+  "author": "Alexander Nedosekin <anedosekin@gmail.com>",
+  "license": "MIT"
+}
