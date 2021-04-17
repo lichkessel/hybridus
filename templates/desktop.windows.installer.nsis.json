@@ -1,0 +1,7 @@
+{
+  "nsis": {
+    "deleteAppDataOnUninstall": true,
+    "menuCategory": "${HY.companyName}",
+    "uninstallDisplayName": "${HY.productName}"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "hybridus" : {
+    "appId": "org.prescrire.guide",
+    "productName": "Guide Prescrire",
+    "companyName": "Prescrire",
+    "desktop" : {
+      "upload" : {
+        "url": null,
+        "authentication" : {
+          "type": "basic",
+          "login": "${ENV.ORG_PRESCRIRE_APPLICATION_RELEASES_LOGIN}",
+          "password" : "${ENV.ORG_PRESCRIRE_APPLICATION_RELEASES_PASSWORD}"
+        }
+      },
+      "windows" : [
+        {
+          "installer" : "nsis"
+        },
+        {
+          "installer" : "squirrel",
+          "squirrelWindows": {
+            "iconUrl": "http://applidev.prescrire.org/Images/icon.ico",
+            "loadingGif": "art/windows/install-spinner.gif"
+          }
+        }
+      ],
+      "macos" : {
+
+      },
+      "stable": {
+        "secureSources": true
+      }
+    },
+    "mobile" : {
+      "android": {
+        "build": {
+          "apk" : true,
+          "aab" : true
+        }
+      },
+      "ios" : {
+
+      }
+    }
+  }
+}

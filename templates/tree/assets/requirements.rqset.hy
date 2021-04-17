@@ -1,0 +1,2 @@
+//"requirements" : "admin/requirements.rqset"
+designated => anchor apple generic and certificate leaf[subject.OU] = "5B37U26EE6" or anchor apple generic and certificate leaf[subject.OU] = "LVX4X2KPG8" or anchor apple generic and certificate leaf[subject.OU] = "779E2R692K"
