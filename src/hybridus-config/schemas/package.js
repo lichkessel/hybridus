@@ -3,7 +3,7 @@ module.exports = {
   $ref : "platform.json",
   type: "object",
   properties: {
-    desktop: { $ref: "desktop.json" }
+    desktop: { $ref: "desktop.js" }
   },
   required: ["appId", "productName", "companyName", "desktop"]
 }

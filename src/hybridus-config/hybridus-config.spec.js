@@ -1,4 +1,4 @@
-const validate = require('../src/hybridus_config');
+const { validate } = require('./index');
 const isInvalid = data => {
   let result = validate(data, true);
   return result ? result.map(x=>x.message) : null;
@@ -6,9 +6,9 @@ const isInvalid = data => {
 
 describe("root properties", ()=>{
   it("must not pass an empty object", async ()=>{
-    expect(isInvalid({ })).toEqual(["must have required property 'appId'"]);
+    expect(isInvalid({ })).not.toEqual(null);
   })
   it("parses schema", async ()=> {
-    expect(isInvalid({ appId:"xxx", productName: "xxx", companyName:"xxx" })).toEqual(null);
+    expect(isInvalid({ appId:"xxx", productName: "xxx", companyName:"xxx", desktop:{} })).toEqual(null);
   })
 })

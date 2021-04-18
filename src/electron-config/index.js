@@ -1,5 +1,5 @@
-const readConfigs = require('../src/read-configs');
-const mergeConfigs = require('../src/merge-config-json');
+const readConfigs = require('../read-configs');
+const mergeConfigs = require('../merge-config-json');
 const { resolve } = require('path');
 
 const configRoot = "./templates";

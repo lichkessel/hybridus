@@ -1,5 +1,5 @@
 {
   "spec_files": [
-    "tests/**/*.spec.js"
+    "src/**/*.spec.js"
   ]
 }

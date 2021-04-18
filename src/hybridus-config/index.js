@@ -1,9 +1,9 @@
 const Ajv = require("ajv");
 const ajv = new Ajv({
   schemas: [
-    require('../schemas/package.js'),
-    require('../schemas/desktop.js'),
-    require('../schemas/platform.js')
+    require('./schemas/package.js'),
+    require('./schemas/desktop.js'),
+    require('./schemas/platform.js')
   ]
 });
 
