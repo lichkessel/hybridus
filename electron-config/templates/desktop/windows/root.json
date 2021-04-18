@@ -1,0 +1,7 @@
+{
+  "build" : {
+    "win": {
+      "sign": "node_modules/hybridus/tools/windows_sign.js"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "build": {
+    "win": {
+      "target": ["squirrel"]
+    },
+    "squirrelWindows": {
+      "msi": false,
+      "remoteReleases": "",
+      "remoteToken": ""
+    }
+  }
+}

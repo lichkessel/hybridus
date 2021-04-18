@@ -1,0 +1,15 @@
+{
+  "build" : {
+    "mac": {
+      "requirements": "assets/requirements.rqset",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "entitlements": "assets/entitlements.plist",
+      "entitlementsInherit": "assets/entitlements.plist"
+    },
+    "dmg": {
+      "sign": false
+    },
+    "afterSign": "node_modules/hybridus/tools/macos_notarize.js"
+  }
+}

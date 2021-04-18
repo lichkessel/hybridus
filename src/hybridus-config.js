@@ -13,4 +13,4 @@ const validate = (data, returnErrors = false) => {
   return returnErrors ? (valid ? null : validate.errors) : valid;
 }
 
-module.exports = validate;
+module.exports = { validate };

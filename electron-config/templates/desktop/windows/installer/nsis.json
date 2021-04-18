@@ -1,0 +1,12 @@
+{
+  "build": {
+    "win": {
+      "target": ["nsis"]
+    },
+    "nsis": {
+      "deleteAppDataOnUninstall": true,
+      "menuCategory": "${HY.companyName}",
+      "uninstallDisplayName": "${HY.productName}"
+    }
+  }
+}

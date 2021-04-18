@@ -1,0 +1,11 @@
+{
+  "build": {
+    "appId": "${HY.appId}",
+    "productName": "${HY.productName}",
+    "directories": {
+      "app": ".dist",
+      "output": ".publish"
+    },
+    "asar": false
+  }
+}
